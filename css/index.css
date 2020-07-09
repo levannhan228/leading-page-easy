@@ -1,0 +1,513 @@
+body{
+	margin: 0 ;
+	font-family: 'Roboto Condensed', sans-serif ;
+}
+.header{
+	width: 100%;
+	background-color: #b06010;
+	padding: 1rem 0;	
+}
+.myNavbar{
+	height: 5rem;
+	margin-top: 1rem;
+	margin-left: 10%;
+	font-size: 18px;
+}
+.header-content{
+	width: 80%;
+	margin: 0 auto;
+	color: white;
+}
+.header-content .fa-phone{
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+.header-content i, .header-content span{
+	margin-right: 1rem;
+}
+.myNavbar-branch,.myNavbar-menu,.social {
+	float: left;
+}
+.social{
+	margin-top: 0.5rem;
+}
+.myNavbar-menu ul{
+	list-style: none;
+}
+.myNavbar-menu ul li{
+	float: left;
+	margin-right: 2.2rem;
+}
+.myNavbar-menu ul li a{
+	text-decoration: none;
+	color: black;
+/* 	font-weight: bold; */
+}
+.myNavbar-menu ul li.active a{
+	color: #b06010;
+}
+.myNavbar-menu ul li:hover a{
+	color: #b06010;
+}
+.social-item{
+	width: 1.8rem;
+	height: 1.8rem;
+	color: white;
+	float: left;
+	margin-top: 10px;
+	border-radius: 50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	-o-border-radius:50%;
+	-ms-border-radius:50%;
+}
+.fb-social{
+	background-color: #3b5998;
+	text-align: center;
+	line-height: 3rem;
+	width: 3rem;
+	height: 3rem;
+}
+.tw-social{
+	background-color: #1da1f2;
+	text-align: center;
+	line-height: 3rem;
+	width: 3rem;
+	height: 3rem;
+	margin-left: 1rem;
+}
+.db-social{
+	background-color: #ea4c89;
+	text-align: center;
+	line-height: 3rem;
+	width: 3rem;
+	height: 3rem;
+	margin-left: 1rem;
+}
+.myNavbar-branch{
+	width: 20%;
+}
+.myNavbar-menu {
+	width: 55%;
+	text-align: center;
+	margin-left: 6%;
+	margin-top: 1.2rem;
+}
+/* start slider css */
+.carousel-inner img{
+	margin: 0 0;;
+}
+.container{
+	margin: 0 0 !important;
+	padding: 0 0 !important;
+	width: 100% !important;
+	margin-top: 10px !important;;
+}
+.slider{
+	position: absolute !important;
+	top: 2rem;
+	width: 100%;
+}
+.slider-caption{
+	text-align: center;
+	color: black;
+}
+.slider-caption h1{
+	font-size: 50px;
+	font-weight:lighter;
+	margin-bottom: 4rem;
+	position: absolute;
+	color: white;
+	top: 15rem;
+	text-align: center;
+	width: 100%;
+}
+.slider-social{
+	text-align: center;
+	position: absolute;
+	top: 37rem;
+	width: 100%;
+}
+.slider-social i{
+	margin-right: 2rem;
+	color: #b06010;
+}
+/* end slider css */
+/* start about us css */
+.about-us{
+	width: 100%;
+	margin-top: 10rem;
+}
+.about-us-content{
+	width: 80%;
+	margin: 0 auto;
+}
+.about-us-caption{
+	text-align: center;
+	margin-top: -3rem;
+}
+.about-us-caption h1{
+	font-size: 5rem;
+	margin-bottom: 0.8rem;
+	font-weight: 200;
+}
+.about-us-caption span{
+	font-size: 1.2rem;
+	letter-spacing: 0.3rem;
+	color: #b06010;
+}
+.about-us-caption p{
+	font-size: 1.5rem;
+	padding: 2rem 1.5rem;
+	line-height: 1.8em;
+	color:#676760;
+}
+.about-us-list{
+	width: 100%;
+	margin: 5rem auto;
+}
+.about-us-list-item{
+	width: 25%;
+	float: left;
+	text-align: center;
+
+}
+.about-us-list-item i{
+	font-size: 5rem;
+	color: #204b87;
+}
+.about-us-list-item h2{
+	color:#b06010;
+	font-size: 30px;
+	font-weight: bold;
+}
+.about-us-list-item p{
+	padding: 0 1rem;
+	color:#676760;
+}
+/* end about us css */
+
+/* start home css */
+.home{
+	margin-top: 3rem;
+	width: 100%;
+	float: left;
+	background-color: #015bb1;
+	padding-bottom: 2rem;
+}
+.home-img{
+	float: left;
+	width: 60%;
+}
+.home-img img{
+	width: 90%;
+	height: 400px;
+}
+.home-list{
+	float: left;
+	width: 35%;
+}
+.home-list h1{
+	color: white;
+	font-size: 4rem;
+	margin-top: 10%;
+	font-weight: bold;
+}
+.home-list p{
+	font-size: 1.7rem;
+	color: white;
+	line-height: 4rem;
+}
+p.home-subtitle{
+	color: black;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	margin-bottom: 2rem;
+}
+
+/* end home css */
+/* start team css */
+.team{
+	width: 100%;
+	padding-top: 3rem;
+	float: left;
+}
+.team-content{
+	width: 80%;
+	margin: 0 auto;
+}
+.team-title{
+	text-align: center;
+}
+.team-title h1{
+	font-size: 5rem;
+	margin-bottom: 0.6rem;	
+}
+.team-title p{
+	color: #b06010;
+	font-size: 2rem;
+	letter-spacing: 0.5rem;
+}
+.team-member-item{
+	float: left;
+	width: 33%;
+	text-align: center;
+	margin-top: 5rem;
+}
+.team-member-item img{
+	border-radius: 50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	-o-border-radius:50%;
+	-ms-border-radius:50%;
+	width: 60%;
+}
+.team-member-item p{
+	color: #b06010;
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin-top: 5rem;
+}
+.team-member-item span{
+	font-size: 1.5rem;
+	font-weight: 200;
+}
+.team-social{
+	margin-top: 1.5rem;
+}
+.team-social i{
+	color: #204b87;
+	font-size: 1.5rem;
+	margin:0 0.5rem;
+}
+.team-line{
+	width: 20rem;
+	height: 3px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+/* end team css */
+/* start customer css */
+.customer{
+	width: 100%;
+	height: 40rem;
+	float: left;
+	margin-top: 10rem;
+}
+.container-customer{
+	margin: 0 0 !important;
+	padding: 0 0 !important;
+	margin-bottom: 3rem;
+}
+.customer-content{
+	width: 100%;
+	margin: 0 auto;
+}
+.custom-title{
+	text-align: center;
+	margin: 5rem auto;
+	position: absolute;
+	top: 2rem;
+	width: 100%;
+}
+.custom-title h1{
+	font-size: 4rem;
+	margin-bottom: 0.6rem;
+	color: white;
+	font-weight: bold;
+}
+.custom-title span{
+	color: #b06010;
+	font-size: 1.5rem;
+	letter-spacing: 0.4rem;
+}
+.custom-member-item{
+	width: 30%;
+	float: left;
+}
+.custom-member-item:nth-last-child(2){
+	margin: 0 5%;;
+}
+.custom-comment{
+	background: rgba(255, 255, 255, 0.4);
+	color: white;
+	padding: 0.8rem;
+}
+#triangle-down{
+	width: 0;
+	height: 0;
+	border-left: 1rem solid transparent;
+	border-right: 1rem solid transparent;
+	border-top: 1rem solid  rgba(255, 255, 255, 0.4);
+	margin-left: 25%; 
+}
+.custom-info img{
+	max-width: 20%;
+	float: left;
+	margin-right: 0.3rem;
+	margin-left: 20%;
+}
+.custom-info p{
+	color: white;
+	font-size: 1.5rem;
+	margin-top: 2rem ;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+.custom-info span{
+	color: white;
+}
+.custom-info span{
+	height: 4rem;
+}
+.custom-member{
+	position: absolute;
+	top: 25rem;
+	margin: auto 6rem;
+}
+/* end customer css */
+/* start overview css */
+.overview{
+	width: 100%;
+	padding-top: 4rem;
+		padding-bottom: : 4rem;
+	float: left;
+}
+.overview-content{
+	width: 100%;
+	margin: 0 auto;
+}
+.overview-title{
+	text-align: center;
+}
+.overview-title h1{
+	font-size: 5rem;
+	margin-bottom: 0.6rem;
+	margin-top: 20%;
+}
+.overview-title span{
+	color: #b06010;
+	font-size: 1.5rem;
+	letter-spacing: 0.4rem;
+}
+.overview-list{
+	background-color: #212121;
+	height: 15rem;
+	margin-top: 7rem;
+}
+.overview-list-item{
+	float: left;
+	width: 27%;
+	padding-top: 4%;
+	line-height: 2rem;
+	padding-left: 2.5rem;
+}
+.overview-list-item i{
+	float: left;
+	color: #b06010;
+	font-size: 3.5rem;
+	padding-left: 15%;
+	padding-top: 1rem;
+	margin-right: 4rem;
+ line-height: 2rem
+}
+.overview-list-item p{
+	color: white;
+	font-size: 3rem;
+	font-weight: bold;
+	margin: 0.12rem 0;
+}
+.overview-list-item span{
+	font-size: 1.5rem;
+	color: white;
+}
+.footer{
+	width: 100%;
+	float: left;
+	background-color: black;
+	color: white;
+	margin-top: 5rem;
+	padding-bottom: 8rem;
+}
+
+.footer-content{
+	width: 80%;
+	margin: auto;
+}
+.footer-detail{
+	float: left;
+	width: 33%;
+	margin-bottom: 4rem;
+}
+.footer-detail h2{
+	font-size: 3rem;
+}
+.footer-detail p{
+	color: #7c7c7c;
+}
+.footer-detail p i{
+	margin-right: 1rem;
+}
+.footer-contact p{
+	padding-right: 4.5rem;
+	margin-bottom: 1.5rem;
+}
+.footer-about-us p{
+	line-height: 1.6rem;
+	padding-right: 2rem;
+	
+}
+.footer-new i{
+	color: #204b87;
+}
+.footer-detail .fa-phone{
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	color: #7c7c7c;
+}
+.footer-content-form{
+	margin-top: 3rem;
+}
+.footer-content-form h2{
+	margin-bottom: 5rem;
+}
+.footer-content-form input{
+	width: 76%;
+	height: 5rem;
+	background-color: #1b1b1b;
+	border: none;
+	
+}
+.footer-content-form button{
+	width: 22%;
+	height: 5rem;
+	background-color: #204b87;
+	border: none;
+	font-size: 1.7rem;
+	color: white;
+	font-weight: bold;
+}
+.copy-right{
+	width: 100%;
+	background: #111;
+	text-align: center;
+	height: 5rem;
+	float: left;
+}
+.copy-right p{
+	margin: 0;
+	color: white;
+	line-height: 5rem;
+}
+.copy-right a{
+	color: #b06010;
+}
+
+/* end overview css */
